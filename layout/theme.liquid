@@ -1,6 +1,10 @@
 {{ content_for_header }}
 {{ content_for_layout }}
- {% assign variable = "Hola Ro con Liquid" %}
+ {% assign cadena = "Ro, Claudia, Morelia, Elena, Iker, Farid" %}
  <h2>
- {{ variable }}
+   <ul>
+     {% for datos in cadena %}
+ <li>{{ datos }} </li>
+       {% endfor %}
+   </ul>
  </h2>
