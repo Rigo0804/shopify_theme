@@ -1,11 +1,4 @@
 {{ content_for_header }}
 {{ content_for_layout }}
  {% assign productos = collections['featured-collection'] %}
- La collecion es: {{ collection.title }}
- <h2>
-   <ul>
-     {% for datos in cadena %}
- <li>{{ datos }} <br> </li>
-       {% endfor %}
-   </ul>
- </h2>
+ La coleccion es: {{ productos.title }}
