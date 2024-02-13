@@ -1,6 +1,7 @@
 {{ content_for_header }}
 {{ content_for_layout }}
- {% assign cadena = "Ro, Claudia, Morelia, Elena, Iker, Farid" %}
+ {% assign productos = collections['featured-collection'] %}
+ {{ collection.title }}
  <h2>
    <ul>
      {% for datos in cadena %}
