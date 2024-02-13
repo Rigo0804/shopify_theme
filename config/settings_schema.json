@@ -1465,16 +1465,5 @@
         "default": "scheme-1"
       }
     ]
-  },
-  {
-    "name": "Colors",
-    "settings": [
-      {
-        "type": "color",
-        "id": "link_color",
-        "label": "Link Color",
-        "default": "#000"
-      }
-    ]
   }
 ]
